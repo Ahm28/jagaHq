@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2020": true },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "ignorePatterns": ["dist", ".eslintrc.cjs"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react-refresh"],
+  "rules": {
+    "indent": ["error", 2], // Sets indentation to 2 spaces
+    "comma-spacing": ["error", { "before": false, "after": true }], // Enforces spacing around commas
+    "jsx-quotes": ["error", "prefer-single"],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-var": "error",
+    "no-useless-escape": "off"
+  }
+}
