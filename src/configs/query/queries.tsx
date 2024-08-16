@@ -1,8 +1,14 @@
 import { gql } from '@apollo/client';
 
 export const GET_EPISODES = gql`
-  query ($page: Int) {
-    episodes (page: $page) {
+  query ($page: Int, $name: String) {
+    episodes (page: $page, filter: {name: $name}) {
+      info {
+          count
+          pages
+          next
+          prev
+      }
       results {
         id
         name
@@ -12,6 +18,7 @@ export const GET_EPISODES = gql`
           name
           image
           id
+          species
         }
       }
     }
