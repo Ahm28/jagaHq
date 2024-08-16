@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# JagaHq
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend application developed as part of a skill test for the JagaHq company.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- Vite
+- Apollo Client
+- GraphQL
+- LDRS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To set up the project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository:**
+    ```bash
+    git clone <repository_url>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Open the folder:** 
+    ```bash
+    cd jagaHq
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. **Install Depedencies:** 
+    ```bash
+    npm i
+    # or
+    yarn install
+
+4. **Install Depedencies:** 
+    ```bash 
+    yarn dev 
+    # or
+    yarn install 
+
+The application should now be running and accessible through your browser.
+
+## Installation
+
+Once the project is installed and the server is running, you can directly use the application as intended.
+
+## Contact
+For any questions or support, you can reach me at ahmad.mughni1905@gmail.com.
+
