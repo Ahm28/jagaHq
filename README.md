@@ -30,12 +30,23 @@ To set up the project locally, follow these steps:
 
 4. **Install Depedencies:** 
     ```bash 
-    yarn dev 
+    npm run dev 
     # or
-    yarn install 
+    yarn run dev 
 
 The application should now be running and accessible through your browser.
 
+## Preview 
+
+
+
+![Home Screenshoot](https://res.cloudinary.com/dtkha4ynd/image/upload/v1723897095/Gambar_WhatsApp_2024-08-17_pukul_19.13.47_e4c67acc_e1i9tf.jpg)
+
+Home preview image
+
+![Detail Espisode](https://res.cloudinary.com/dtkha4ynd/image/upload/v1723897095/Gambar_WhatsApp_2024-08-17_pukul_19.14.25_021b8f7b_ezqttb.jpg)
+
+Detail preview image
 ## Installation
 
 Once the project is installed and the server is running, you can directly use the application as intended.
